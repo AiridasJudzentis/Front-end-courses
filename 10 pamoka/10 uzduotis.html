@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>10 uzduotis</title>
+  </head>
+  <body>
+    <div class="box">
+      <header>
+        <h1><span class="register">Register</span> to Fancy Form</h1>
+        <p>
+          All fields are <span class="required">required</span> unless marked as
+          "optional"
+        </p>
+      </header>
+      <form>
+        <label for="unique">Your unique ID that you can't change</label>
+        <input type="text" name="unique" placeholder="YBX0123" readonly />
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" required />
+        <label for="age">Age</label>
+        <input type="number" name="age" required />
+        <label for="about">Tell us a little about yourself (optional)</label>
+        <textarea name="about"></textarea>
+        <label name="agree"
+          ><input type="checkbox" />I agree with the Tems & Conditions</label
+        >
+        <input type="submit" name="register" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>

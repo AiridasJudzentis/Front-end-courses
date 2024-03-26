@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kartuvių Žaidimas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Kartuvių Žaidimas</h1>
+    <button id="newWordBtn">Naujas žodis</button>
+    <div id="wordDisplay"></div>
+    <div id="guessSection">
+      <input
+        type="text"
+        id="letterInput"
+        placeholder="Įveskite raidę"
+        maxlength="1"
+      />
+      <button id="guessBtn">Spėti</button>
+    </div>
+    <div id="messages" class="wrongGuessesCls"></div>
+    <div id="wrongGuesses">Neteisingi spėjimai:</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

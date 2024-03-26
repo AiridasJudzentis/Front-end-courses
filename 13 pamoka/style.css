@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 900px;
+}
+.block .tropics {
+  width: 250px;
+}
+.block {
+  box-shadow: 1px 2px 5px #5e5e5e;
+  width: 250px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.block button:last-of-type {
+  margin-top: auto;
+  width: 100%;
+  background-color: rgb(128, 128, 128);
+  border: 0px;
+  bottom: 0;
+  padding: 10px 0px;
+}
+
+button:last-of-type {
+  margin-left: auto;
+}
+.block img {
+  height: 150px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  margin: 10px 20px;
+}
+p {
+  margin: 10px 20px;
+}

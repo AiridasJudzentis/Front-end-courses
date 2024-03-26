@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produktų katalogas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="controls">
+        <select id="categorySelect">
+          <option value="">All products</option>
+        </select>
+
+        <div class="search-container">
+          <div class="cart-icon">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="cart-badge">0</span>
+          </div>
+          <div>
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="Search..."
+              class="searchInpt"
+            />
+            <button id="searchButton" class="searchBtn">Search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="productsContainer" class="products-container"></div>
+    <div class="pagination">
+      <button id="firstPage" class="pagenationBtn">First Page</button>
+      <button id="prevPage" class="pagenationBtn">Prev</button>
+      <span id="currentPage" class="pagenationTxt"></span>
+      <button id="nextPage" class="pagenationBtn">Next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

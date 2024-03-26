@@ -1,0 +1,119 @@
+aside {
+  position: fixed;
+  background-color: rgb(47, 47, 47);
+  color: aliceblue;
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+h2 {
+  font-family: roboto;
+  width: 150px;
+  margin-left: 15px;
+  font-size: 36px;
+}
+.kategorijos {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+.options {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  list-style-type: none;
+}
+li {
+  margin-bottom: 15px;
+  font-family: roboto;
+  color: red;
+}
+
+.kategorijos li a {
+  color: white;
+}
+li span {
+  color: gray;
+}
+header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100px;
+  border-bottom: 2px solid rgb(202, 202, 202);
+  left: 220px;
+  background-color: white;
+  z-index: 1;
+}
+h1 {
+  background-color: white;
+  position: absolute;
+  margin-left: 50px;
+  top: 0px;
+  font-family: roboto;
+  padding-top: 20px;
+  font-size: 26px;
+}
+nav a {
+  color: gray;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(125, 125, 125);
+  text-decoration: none;
+}
+
+nav {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  font-family: roboto;
+}
+.gray {
+  color: gray;
+  margin-left: 5px;
+}
+main {
+  margin-top: 50px;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
+h3 {
+  font-family: roboto;
+}
+table {
+  width: 100%;
+  border: 1px solid red;
+  color: white;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid red;
+  text-align: right;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+tbody tr td {
+  height: 40px;
+}
+tfoot tr td {
+  height: 40px;
+}
+.lentele {
+  background-color: rgb(54, 54, 140);
+  padding: 50px;
+  margin-bottom: 50px;
+}

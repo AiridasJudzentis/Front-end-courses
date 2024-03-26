@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <font-awesome-icon :icon="['far', 'check-circle']" />
+    <title>Hiking Tours puslapis</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo"
+        >Hiking<span class="purple"> Tours</span>
+      </a>
+      <nav>
+        <a href="#continue"> Home</a>
+        <a href="#about">About </a>
+        <a href="#services"> Services</a>
+        <a href="#featured"> Featured</a>
+        <a href="#gallery"> Gallery</a>
+      </nav>
+      <div class="social-links">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://lt.linkedin.com/" class="fa fa-linkedin"></a>
+      </div>
+    </header>
+    <main>
+      <div id="continue">
+        <h1>CONTINUE EXPLORING</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a href="#explore" class="explore-btn">Explore tours</a>
+      </div>
+      <div id="about">
+        <h2>ABOUT <span class="purple">US</span></h2>
+
+        <div class="about-us-inside">
+          <div class="rectangle">
+            <img class="image" src="hike.jpg" alt="Two people hiking" />
+          </div>
+          <div class="about-us-text">
+            <h3>EXPLORE THE DIFFERENCE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+            <a href="#read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div id="services">
+        <h2>OUR <span class="purple">SERVICES</span></h2>
+        <div class="testimonials">
+          <div class="service-card">
+            <img class="service-img" src="wallet.png" alt="Saving money" />
+            <div>
+              <h4>SAVING MONEY</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img class="service-img" src="tree.png" alt="Endless hiking" />
+            <div>
+              <h4>ENDLESS HIKING</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img class="service-img" src="socks.png" alt="Amazing Comfort" />
+            <div>
+              <h4>AMAZING COMFORT</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="featured">
+        <h2>FEATURED <span class="purple">TOURS</span></h2>
+        <div class="featured-cards">
+          <div class="featured-blocks">
+            <span class="date">August 14th, 2022</span>
+            <img src="kalnai.jpg" class="featured-img" alt="Kalnai" />
+            <h4>Tibet Adventure</h4>
+            <div class="details">
+              <a href="#china"
+                ><img src="map.png" class="map" alt="Map image" />China</a
+              >
+              <div class="price-day">
+                <span>6 Days</span>
+                <span>From $2100</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-blocks">
+            <span class="date">October 1th, 2022</span>
+            <img src="java.jpg" class="featured-img" alt="Java" />
+            <h4>Best Of Java</h4>
+            <div class="details">
+              <a href="#indonesia"
+                ><img src="map.png" class="map" alt="Map image" />Indonesia</a
+              >
+              <div class="price-day">
+                <span>10 Days</span>
+                <span>From $4100</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-blocks">
+            <span class="date">September 26th, 2022</span>
+            <img src="hongkong.jpg" class="featured-img" alt="Hong Kong" />
+            <h4>Explore Hong Kong</h4>
+            <div class="details">
+              <a href="#hongkong"
+                ><img src="map.png" class="map" alt="Map image" />Hong Kong</a
+              >
+              <div class="price-day">
+                <span>12 Days</span>
+                <span>From $3100</span>
+              </div>
+            </div>
+          </div>
+          <div class="featured-blocks">
+            <span class="date">December 5th, 2022</span>
+            <img src="kenya.jpg" class="featured-img" alt="Kenya" />
+            <h4>Kenya Highlights</h4>
+            <div class="details">
+              <a href="#kenya"
+                ><img src="map.png" class="map" alt="Map image" />Kenya</a
+              >
+              <div class="price-day">
+                <span>22 Days</span>
+                <span>From $5400</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#all-tours" class="all-tours">All Tours</a>
+      </div>
+      <div id="gallery">
+        <h2>OUR <span class="purple">GALLERY</span></h2>
+        <div class="gallery-block">
+          <div class="galery-images">
+            <img src="kalnai.jpg" class="gallery-img" alt="Kalnai" />
+            <img src="kenya.jpg" class="gallery-img" alt="Kenya" />
+            <img src="hongkong.jpg" class="gallery-img" alt="Hong Kong" />
+            <img src="java.jpg" class="gallery-img" alt="Java" />
+          </div>
+          <div class="subscribe">
+            <div class="updates">
+              <h4>WANT LATEST TOUR INFO AND UPDATES?</h4>
+              <p>Sign Up For Newsletter And Stay Up To Date</p>
+            </div>
+            <form>
+              <input type="text" placeholder="YOUR EMAIL" />
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-navigation">
+        <a href="#continue"> Home</a>
+        <a href="#about">About </a>
+        <a href="#services"> Services</a>
+        <a href="#featured"> Featured</a>
+        <a href="#gallery"> Gallery</a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://lt.linkedin.com/" class="fa fa-linkedin"></a>
+      </div>
+      <p>Copyright Hiking Tour 2022. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

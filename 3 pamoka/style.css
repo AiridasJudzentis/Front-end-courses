@@ -1,0 +1,95 @@
+nav {
+  background-color: #cccccc;
+  overflow: hidden;
+  width: 1800px;
+  margin: auto;
+}
+.nav a {
+  float: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Agbalumo;
+}
+.logo {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50px;
+}
+button {
+  margin-left: 30px;
+  height: 50px;
+}
+.vardas {
+  background-color: #d5e4ab;
+  box-shadow: 5px 10px 10px #eb0b0b;
+  width: 60%;
+  text-align: center;
+  margin-left: 100px;
+}
+.issilavinimas {
+  width: 90%;
+  background-color: #afabe4;
+  box-shadow: 5px 10px 10px #359151;
+  font-family: Ubuntu;
+}
+.hobiai {
+  width: 60%;
+  background-color: #e4abab;
+  box-shadow: 5px 10px 10px #433591;
+  margin-left: 150px;
+}
+article {
+  width: 100%;
+  height: 200px;
+  columns: 150px 3;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+h2 {
+  font-family: Ubuntu;
+  font-size: 36px;
+}
+main {
+  background-image: url(./bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33333300;
+}
+
+.navbar {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #707070;
+}
+
+.pirmas-sektorius {
+  columns: 500px 2;
+  margin-top: 150px;
+}
+.nuotraukos-sektorius {
+  width: 350px;
+  text-align: center;
+  margin-left: 180px;
+}

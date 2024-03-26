@@ -1,0 +1,213 @@
+header {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  box-shadow: 0px 1px 5px #bababa;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+header p span {
+  color: rgb(95, 87, 255);
+}
+header p {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  margin-left: 50px;
+}
+nav a {
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+nav .fa-facebook {
+  font-size: 20px;
+  color: rgb(100, 92, 255);
+}
+nav .fa-twitter {
+  font-size: 20px;
+  color: rgb(100, 92, 255);
+}
+nav .fa-linkedin {
+  font-size: 20px;
+  color: rgb(100, 92, 255);
+}
+nav {
+  margin-right: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#nauja-uzduotis {
+  border: solid 1px rgb(226, 226, 226);
+  width: 90%;
+  height: 30px;
+  line-height: 20px;
+  vertical-align: middle;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(128, 128, 128);
+}
+#nauja-uzduotis:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#prideti {
+  width: 20%;
+  text-align: center;
+  border: 0px;
+  height: 33px;
+  padding: 0px 30px;
+  vertical-align: middle;
+  border-radius: 0px 5px 5px 0px;
+  background-color: rgb(100, 92, 255);
+  color: white;
+  font-size: 15px;
+  font-family: roboto;
+}
+main {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: roboto;
+}
+.your-tasks {
+  width: 50%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 5px #bababa;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.your-tasks p {
+  text-align: left;
+  color: rgb(136, 19, 36);
+}
+
+.old-tasks span {
+  font-size: 24px;
+  flex-grow: 1;
+  text-align: left;
+}
+.old-tasks {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+
+  margin-bottom: 10px;
+  box-shadow: 0px 8px 8px #bababa;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+}
+.old-tasks a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.old-tasks:hover {
+  box-shadow: 0px 10px 20px #bababa;
+}
+
+.old-tasks .fa-check-circle-o {
+  font-size: 22px;
+}
+.old-tasks .fa-edit {
+  font-size: 20px;
+}
+
+.old-tasks .fa-trash {
+  font-size: 20px;
+}
+
+.edit-task {
+  width: 30%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 5px #bababa;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.edit-task .flex-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.edit-task .flex-row input {
+  width: 70%;
+  border: solid 1px rgb(226, 226, 226);
+  height: 25px;
+  font-size: 14px;
+}
+
+.edit-task .flex-row input[id="completed"] {
+  height: 5%;
+  flex-grow: 1;
+}
+
+.edit-task .flex-row span {
+  font-size: 18px;
+}
+.edit-task .flex-row input[id="task-id"] {
+  border: 0px;
+}
+.edit-task input[id="edit-button"] {
+  border: 0px;
+  background-color: rgb(100, 92, 255);
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  border-radius: 5px;
+}
+.edit-task p {
+  text-align: center;
+  color: rgb(136, 19, 36);
+  font-size: 14px;
+}
+.edit-task:hover {
+  box-shadow: 0px 10px 20px #bababa;
+}
+
+.back-to-tasks {
+  background-color: black;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  width: 15%;
+  border-radius: 5px;
+}
+.back-to-tasks a {
+  text-decoration: none;
+  color: white;
+}
+::placeholder {
+  margin-left: 5px;
+}
+.done {
+  text-decoration: line-through;
+}
+
+.inputs {
+  display: flex;
+}
+label {
+  display: flex;
+  align-items: center;
+}

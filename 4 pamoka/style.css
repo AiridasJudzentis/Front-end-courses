@@ -1,0 +1,59 @@
+nav {
+  background-color: green;
+  height: 40px;
+  padding-top: 15px;
+}
+
+nav a {
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo {
+  width: 200px;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+.dykuma {
+  margin: 20px;
+  margin: 20px;
+  width: 1800px;
+}
+.center {
+  text-align: center;
+}
+
+.headings {
+  background-color: green;
+  height: 50px;
+  margin: 40px;
+}
+.headings h2 {
+  color: aliceblue;
+  padding-top: 5px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+main {
+  background-color: rgb(222, 222, 222);
+  padding-bottom: 20px;
+}
+footer {
+  background-color: rgb(180, 223, 199);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+p {
+  margin: 40px;
+  font-size: 20px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

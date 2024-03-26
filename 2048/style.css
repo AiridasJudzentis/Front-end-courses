@@ -1,0 +1,130 @@
+body {
+  background-color: #faf8ef;
+  font-family: "Clear Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  background-color: #faf8ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #776e65;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.score-box {
+  background: #bbada0;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.score-label {
+  font-size: 18px;
+  color: #eee4da;
+  font-weight: bold;
+}
+
+.score {
+  color: white;
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.new-game-button {
+  background-color: #8f7a66;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.game-board {
+  background-color: #bbada0;
+  padding: 15px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  height: 100%;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0e5da;
+  font-size: 55px;
+  color: #776e65;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+.tile[data-value="2"] {
+  background-color: #faf8ef;
+}
+
+.tile[data-value="4"] {
+  background-color: #ede4da;
+}
+
+.tile[data-value="8"] {
+  background-color: #f2b179;
+}
+
+.tile[data-value="16"] {
+  background-color: #f59563;
+}
+
+.tile[data-value="32"] {
+  background-color: #f67c5f;
+}
+
+.tile[data-value="64"] {
+  background-color: #f65e3b;
+}
+
+.tile[data-value="128"] {
+  background-color: #edcf72;
+}
+
+.tile[data-value="256"] {
+  background-color: #edcc61;
+}
+
+.tile[data-value="512"] {
+  background-color: #edc850;
+}
+
+.tile[data-value="1024"] {
+  background-color: #edc53f;
+}
+
+.tile[data-value="2048"] {
+  background-color: #edc22e;
+}
+
+/* Add more if needed */

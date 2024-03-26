@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+}
+header {
+  background-color: rgb(1, 24, 1);
+  margin: 30px auto;
+  width: 95%;
+}
+nav a {
+  margin: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: white;
+}
+nav {
+  padding: 20px 0;
+}
+section {
+  background-color: rgb(1, 24, 1);
+  margin: 30px auto;
+  width: 95%;
+  padding: 5px 0px;
+}
+.star {
+  width: 35px;
+  margin-left: 20px;
+}
+.flag {
+  display: inline-block;
+  width: 40px;
+  margin-left: 10px;
+}
+.white-star {
+  display: inline-block;
+  width: 50px;
+}
+h3 {
+  display: inline-block;
+  color: gold;
+  margin-left: 20px;
+}
+.lenteles {
+  display: inline-block;
+  right: 100px;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+}
+
+table {
+  width: 95%;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: rgb(1, 24, 1);
+}
+th {
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+}
+td {
+  color: white;
+  border-bottom: 1px solid rgb(1, 38, 1);
+}
+tbody .pirma td:nth-child(2) {
+  border-bottom: 1px solid black;
+}
+tbody .pirma td:nth-child(3) {
+  border-bottom: 1px solid black;
+}
+tbody .pirma td:nth-child(4) {
+  border-bottom: 1px solid black;
+}
+tbody .pirma td:nth-child(5) {
+  border-bottom: 1px solid black;
+}
+
+tr td:last-child {
+  width: 150px;
+  border-left: 1px solid rgb(1, 38, 1);
+}
+.club {
+  width: 30px;
+}
+.data {
+  max-width: 200px;
+}
+.klubas {
+  padding-right: 300px;
+}
+
+td span {
+  font-size: large;
+}

@@ -1,0 +1,23 @@
+div{
+    font-family: roboto;
+    font-size: 12px;
+    font-weight: 500;
+}
+.uzduotis{
+    color:blue;
+}
+.green{
+    color:green;
+}
+.italic{
+    font-style: italic;
+}
+span{
+    margin-right:1px;
+}
+.lorem{
+    padding-right: 60%;
+}
+.random{
+    background-color: lightgray;
+}

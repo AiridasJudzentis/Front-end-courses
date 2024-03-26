@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>12 pamoka task</title>
+  </head>
+  <body>
+    <header>
+      <p>Best <span>ToDo</span>App</p>
+      <nav>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://lt.linkedin.com/" class="fa fa-linkedin"></a>
+      </nav>
+    </header>
+    <main>
+      <div class="edit-task">
+        <h1>Edit Task</h1>
+        <div class="flex-row">
+          <input id="task-id" type="text" value="123456789" readonly />
+        </div>
+        <div class="flex-row">
+          <label for="task-name">Name</label>
+          <input id="task-name" type="text" value="Take out trashes" />
+        </div>
+        <div class="flex-row">
+          <label for="completed">Completed</label>
+          <input id="completed" type="checkbox" />
+        </div>
+        <input id="edit-button" type="button" value="Edit" />
+        <p>There Was An Error</p>
+      </div>
+      <button class="back-to-tasks">
+        <a href="./index.html">Back To Task</a>
+      </button>
+    </main>
+  </body>
+</html>

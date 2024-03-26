@@ -1,0 +1,67 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+#guessSection,
+#wrongGuesses {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 150px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#wordDisplay {
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#messages {
+  margin-top: 20px;
+}
+
+.wrongGuessesCls {
+  color: #230cf0;
+}
+
+#wrongGuesses {
+  color: #d9534f;
+}
+
+.correct {
+  color: #28a745;
+}
+
+.gameOver {
+  font-size: 24px;
+  color: #df1111;
+}

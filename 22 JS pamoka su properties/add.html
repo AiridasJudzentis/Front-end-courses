@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Property</title>
+    <!-- Include Bootstrap CSS -->
+  </head>
+  <body>
+    <h1>Add New Property</h1>
+    <form id="addPropertyForm">
+      <input
+        type="text"
+        id="imageUrl"
+        placeholder="Image URL"
+        required
+      /><br /><br />
+      <input
+        type="number"
+        id="price"
+        placeholder="Price in EUR"
+        required
+      /><br /><br />
+      <textarea id="description" placeholder="Description" required></textarea
+      ><br /><br />
+      <select id="city" required>
+        <option value="Vilnius">Vilnius</option>
+        <option value="Kaunas">Kaunas</option>
+        <option value="Klaipėda">Klaipėda</option></select
+      ><br /><br />
+      <button type="submit">Submit Property</button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>

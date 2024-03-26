@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Forma</title>
+  </head>
+  <body>
+    <form>
+      <h1>Contact Us!</h1>
+      <label for="text">Name</label><br />
+      <input type="text" placeholder="Petras" required /><br />
+      <label for="email">Email</label><br />
+      <input
+        type="email"
+        placeholder="petras@petras.lt"
+        required
+        maxlength="20"
+        minlength="3"
+      /><br />
+      <label for="number">Reference Number</label><br />
+      <input type="number" name="Number" placeholder="12213" />
+      <br /><br />
+      <label for="lytis">Pasirinkite lytį</label><br />
+      <select name="lytis" id="lytis">
+        <option value="Moteris">Moteris</option>
+        <option value="Vyras">Vyras</option>
+      </select>
+
+      <textarea
+        name="message"
+        placeholder="Your message goes here..."
+      ></textarea>
+      <input type="submit" value="Send!" /><br />
+
+      <input
+        type="checkbox"
+        id="naujienlaiskis"
+        value="Ar sutinkate gaut naujienlaiškį?"
+      />
+      <label for="naujienlaiskis">Ar sutinkate gaut naujienlaiškį?</label><br />
+      <input
+        type="checkbox"
+        id="privatumas"
+        value="Privatumo apsauga"
+        required
+      />
+
+      <label for="privatumas">Privatumo apsauga</label><br />
+    </form>
+  </body>
+</html>

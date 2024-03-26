@@ -1,0 +1,105 @@
+header {
+  text-align: center;
+}
+h1 span {
+  color: aqua;
+}
+h1 {
+  color: gold;
+}
+body {
+  background-color: rgb(29, 24, 67);
+}
+.logo {
+  width: 700px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+header p {
+  color: palevioletred;
+  font-size: 20px;
+}
+main {
+  text-align: center;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid rgb(29, 24, 67);
+}
+
+th {
+  background-color: rgb(29, 24, 67);
+  color: rgb(246, 183, 204);
+  font-size: 20px;
+  text-align: center;
+}
+td {
+  color: rgb(246, 183, 204);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(60, 60, 143, 0.614);
+  height: 50px;
+}
+.pinker {
+  color: rgb(234, 15, 51);
+}
+tr {
+  color: rgb(246, 183, 204);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(60, 60, 143, 0.614);
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(29, 24, 67);
+  color: rgb(246, 183, 204);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(30, 30, 69, 0.614);
+}
+.green {
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(19, 213, 19);
+  margin: 10px 5px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.green:nth-child(1) {
+  margin-left: 20px;
+}
+.yellow {
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  background-color: gold;
+  margin: 10px 5px;
+  position: relative;
+  border-radius: 5px;
+}
+.yellow:nth-child(1) {
+  margin-left: 20px;
+}
+
+.red {
+  padding: 10px 16px;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  margin: 10px 5px;
+  position: relative;
+  border-radius: 5px;
+}
+.red:nth-child(1) {
+  margin-left: 20px;
+}
+
+.forma {
+  text-align: left;
+  width: 35%;
+}

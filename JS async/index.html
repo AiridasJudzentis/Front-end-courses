@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async</title>
+    <style>
+      td {
+        border: 1px black solid;
+        text-align: center;
+      }
+      th {
+        background-color: bisque;
+      }
+
+      #userContainer {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid black;
+        width: 300px;
+      }
+      #userContainer p {
+        padding: 10px;
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tableContainer"></div>
+    <div id="userContainer"></div>
+
+    <h1>Wedding Guest List</h1>
+    <table id="weddingTable" style="border: 1px black solid">
+      <thead>
+        <tr style="border: 1px black solid">
+          <th>Name</th>
+          <th>Plus One</th>
+          <th>Attending</th>
+        </tr>
+      </thead>
+      <tbody style="border: 1px black solid"></tbody>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>

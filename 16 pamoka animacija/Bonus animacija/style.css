@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  height: 500px;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+}
+.deze {
+  height: 200px;
+  border: 1px solid black;
+  margin: 0;
+  width: 500px;
+}
+.ball {
+  width: 80px;
+  position: relative;
+  top: 7px;
+  animation: roll 10s infinite, spin 1s infinite;
+
+  animation-timing-function: linear;
+}
+@keyframes roll {
+  0% {
+    top: 7px;
+    right: 0px;
+  }
+  15% {
+    top: 7px;
+    right: 250px;
+    rotate: 90;
+  }
+  30% {
+    top: 7px;
+    right: 500px;
+    rotate: 90;
+  }
+  45% {
+    top: 207px;
+    right: 700px;
+    rotate: 90;
+  }
+  60% {
+    top: 50px;
+    right: 800px;
+    rotate: 90;
+  }
+  75% {
+    top: 207px;
+    right: 1000px;
+    rotate: 90;
+  }
+  90% {
+    top: 100px;
+    right: 1200px;
+    rotate: 90;
+  }
+  100% {
+    top: 207px;
+    right: 1300px;
+    rotate: 90;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

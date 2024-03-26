@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <font-awesome-icon :icon="['far', 'check-circle']" />
+    <title>12 pamoka</title>
+  </head>
+  <body>
+    <header>
+      <p>Best <span>ToDo</span>App</p>
+      <nav>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+
+        <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://lt.linkedin.com/" class="fa fa-linkedin"></a>
+      </nav>
+    </header>
+    <main>
+      <div class="your-tasks">
+        <h1>Your Tasks</h1>
+        <form>
+          <div class="inputs">
+            <input
+              type="text"
+              id="nauja-uzduotis"
+              placeholder="e.g. wash dishes"
+            />
+            <input type="button" value="Add" id="prideti" />
+          </div>
+          <p>There Was An Error</p>
+        </form>
+      </div>
+      <div class="old-tasks">
+        <a style="color: white" href="#" class="fa fa-check-circle-o"></a>
+        <span>Take Out Trashes</span>
+        <a style="color: black" href="./task.html" class="fa fa-edit"></a>
+        <a style="color: red" href="./delete" class="fa fa-trash"></a>
+      </div>
+      <div class="old-tasks">
+        <a style="color: green" href="#" class="fa fa-check-circle-o"></a>
+        <span class="done">Walk The Dog</span>
+        <a style="color: black" href="./task.html" class="fa fa-edit"></a>
+        <a style="color: red" href="#" class="fa fa-trash"></a>
+      </div>
+    </main>
+  </body>
+</html>

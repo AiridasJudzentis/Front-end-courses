@@ -1,0 +1,110 @@
+header {
+  background-color: rgb(0, 0, 29);
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  text-align: center;
+  position: relative;
+}
+header h2 {
+  color: white;
+  left: 300px;
+  text-align: left;
+  position: relative;
+}
+nav {
+  background-color: goldenrod;
+  height: 50px;
+  text-align: right;
+  left: 300px;
+  width: 68%;
+  align-self: center;
+  position: relative;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+nav a {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.logo {
+  text-align: center;
+}
+table {
+  border: 1px solid red;
+  color: white;
+  border-collapse: collapse;
+  background-color: rgb(54, 54, 140);
+  margin: 0 auto;
+  width: 73%;
+  position: relative;
+}
+td {
+  border: 1px solid red;
+  text-align: right;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+tbody tr td {
+  height: 40px;
+}
+tfoot tr td {
+  height: 40px;
+}
+.lentele {
+  background-color: rgb(54, 54, 140);
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.tekstas {
+  width: 100%;
+  margin: 0 auto;
+}
+footer {
+  position: relative;
+  left: 300px;
+  width: 68%;
+}
+
+.copyright {
+  text-align: center;
+  background-color: goldenrod;
+  color: white;
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+.goup {
+  border: 0px;
+  color: blue;
+  text-decoration: underline;
+  background-color: white;
+}
+main {
+  position: relative;
+  margin: 0 auto;
+  width: 68%;
+}
+.down {
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  padding: 10px 30px;
+  text-decoration: underline;
+  margin: 20px;
+}
+.down-mygtukas {
+  text-align: center;
+}
+.up-mygtukas {
+  text-align: center;
+}

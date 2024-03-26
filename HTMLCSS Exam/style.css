@@ -1,0 +1,602 @@
+body {
+  position: relative;
+  margin: 0px;
+  right: 0px;
+  font-family: Inter;
+  padding-top: 25px;
+  width: 100%;
+  border-radius: 16px;
+  background: var(--Light-1, #fff);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.12);
+}
+h1 {
+  color: var(--Dark-1, #111);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 274px;
+}
+.slogan {
+  padding-left: 35px;
+  font-family: Inter;
+  height: 410px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-top: 80px;
+  background-image: url("assets/graphic.svg");
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position-x: 230px;
+}
+
+.slogan-text {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 250px;
+}
+.close-slogan {
+  text-align: left;
+  padding-left: 35px;
+  font-family: Inter;
+  height: 600px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-top: 100px;
+  padding-top: 60px;
+  border-top: 2px solid rgba(114, 114, 114, 0.141);
+  border-bottom: 2px solid rgba(114, 114, 114, 0.141);
+  background-image: url("assets/upsell-footer-image.svg");
+  background-size: 220px;
+  background-repeat: no-repeat;
+  background-position-x: 240px;
+  background-position-y: 100px;
+}
+
+.close-slogan h2 {
+  color: var(--Dark-1, #111);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  width: 200px;
+}
+.close-slogan .slogan-text {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 225px;
+}
+
+.close-slogan .launching {
+  color: var(--Pink, #ff3998);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+header {
+  padding: 0px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.menu-option {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  text-decoration: none;
+  display: none;
+}
+header svg {
+  width: 24px;
+  height: 22px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  fill: var(--Dark-4, #999);
+}
+.launching {
+  color: var(--Pink, #ff3998);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: flex;
+  width: 198.001px;
+  height: 36px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.sign-up {
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, purple, orange) border-box;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  padding: 20px 50px;
+  background-color: transparent;
+  color: var(--Dark-1, #111);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+
+.orange {
+  margin-top: 100px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 114, 128),
+    rgb(243, 121, 90),
+    rgb(209, 194, 144)
+  );
+}
+.orange h2 {
+  color: var(--Dark-1, #111);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 100px;
+  padding-left: 35px;
+}
+.orange p {
+  color: var(--Dark-1, #111);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 80%;
+  line-height: 150%; /* 30px */
+  padding-left: 35px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.company {
+  width: 150px;
+}
+.hidden-company {
+  display: none;
+}
+.auction {
+  margin-top: 80px;
+}
+.auction h2 {
+  color: var(--Dark-1, #111);
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 364px;
+  margin-left: 25px;
+}
+.auction p {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin-left: 25px;
+}
+.auction p a {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration-line: underline;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 420px;
+  padding-top: 20px;
+  overflow-x: scroll;
+}
+
+.one-card {
+  width: 290px;
+  margin-left: 25px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 15px;
+}
+.card-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.auction .nft-category {
+  color: var(--Orange, #ff8139);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 20px;
+}
+.auction .nft-name {
+  color: var(--Dark-1, #111);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+  margin-left: 20px;
+}
+.auction .nft-id {
+  color: var(--Dark-3, #777);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 18px */
+  margin-left: 20px;
+}
+
+.auction .bid {
+  color: var(--Dark-3, #777);
+  text-align: right;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+  margin-right: 20px;
+}
+.auction .nft-price {
+  color: var(--Dark-1, #111);
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 20px */
+  margin-right: 20px;
+}
+.auction .nft-price img {
+  width: 13px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.auction .bid-expire {
+  color: var(--Dark-3, #777);
+  text-align: right;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 18px */
+  margin-right: 20px;
+}
+footer {
+  padding-left: 35px;
+  padding-top: 100px;
+}
+footer img {
+  display: flex;
+  width: 198.001px;
+  height: 36px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  flex-shrink: 0;
+}
+footer p {
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+}
+footer svg {
+  width: 117.639px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.bot-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.parrent-cat {
+  margin: 20px 0px;
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+ul {
+  list-style-type: none;
+  width: 150px;
+  padding: 0px;
+}
+li {
+  padding-bottom: 15px;
+}
+li a {
+  text-decoration: none;
+  color: var(--Dark-2, #555);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+}
+.copyright {
+  color: var(--Dark-4, #999);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  padding-bottom: 100px;
+  padding-left: 35px;
+}
+.launching-2022 {
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    flex-shrink: 0;
+    padding: 0px 95px;
+  }
+  .menu svg {
+    display: none;
+  }
+  .menu-option {
+    color: var(--Dark-2, #555);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    text-decoration: none;
+    display: block;
+    margin: 0px 10px;
+  }
+  .pink-sign-up {
+    color: var(--Pink, #ff3998);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+  }
+  .slogan {
+    padding: 0px 95px;
+    margin: auto;
+    font-family: Inter;
+    height: 700px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-top: 80px;
+    background-image: url("assets/graphic.svg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position-x: 700px;
+  }
+  h1 {
+    color: var(--Dark-1, #111);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 650px;
+  }
+  .slogan-text {
+    color: var(--Dark-2, #555);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 650px;
+  }
+  .orange {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 0px;
+
+    background-image: linear-gradient(
+      to right,
+      rgb(255, 84, 138),
+      rgb(255, 65, 84),
+      rgb(255, 128, 56),
+      rgb(150, 224, 157)
+    );
+  }
+  .orange h2 {
+    color: var(--Dark-1, #111);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 100px;
+    padding-left: 35px;
+  }
+  .orange p {
+    color: var(--Dark-1, #111);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    line-height: 150%; /* 30px */
+    padding-left: 35px;
+    padding-bottom: 40px;
+    margin: 0;
+  }
+
+  .companies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+  }
+  .hidden-company {
+    display: block;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 420px;
+    padding-top: 20px;
+    overflow-x: hidden;
+  }
+  .auction {
+    padding: 80px 95px;
+  }
+  .auction h2 {
+    color: var(--Dark-1, #111);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .one-card {
+    margin: 0px 20px;
+  }
+  .auction p {
+    color: var(--Dark-2, #555);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    margin-left: 0px;
+  }
+  .close-slogan {
+    text-align: left;
+    padding-left: 35px;
+    font-family: Inter;
+    height: 700px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 150px 95px;
+    border-top: 2px solid rgba(114, 114, 114, 0.141);
+    border-bottom: 2px solid rgba(114, 114, 114, 0.141);
+    background-image: url("assets/upsell-footer-image.svg");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 850px;
+    background-position-y: 50px;
+  }
+  .close-slogan h2 {
+    color: var(--Dark-1, #111);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    width: 100%;
+  }
+  .close-slogan .slogan-text {
+    color: var(--Dark-2, #555);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 520px;
+  }
+  footer {
+    margin: 0px;
+    padding: 0px 95px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .copyright {
+    padding: 50px 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .launching-2022 {
+    display: block;
+  }
+  .parrent-cat {
+    margin: 0px;
+    color: var(--Dark-2, #555);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  ul {
+    list-style-type: none;
+    width: 150px;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,109 @@
+body {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(254, 232, 232);
+}
+
+h1,
+h2 {
+  font-family: roboto;
+  font-weight: 3000;
+  font-size: 25px;
+}
+h3 {
+  font-family: roboto;
+  font-weight: 3000;
+  font-size: 20px;
+}
+
+.produktai p,
+article p {
+  font-family: roboto;
+  font-weight: 100;
+}
+
+.apie-mus-ft {
+  position: relative;
+}
+
+nav {
+  padding: 20px 0px;
+  font-family: roboto;
+  font-weight: 1000;
+  z-index: 1;
+}
+nav a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header {
+  box-shadow: 0px 0px 3px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+.apie-mus {
+  padding-top: 20px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: roboto;
+  background-color: rgb(255, 255, 255);
+}
+
+.produktai {
+  padding-top: 20px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: roboto;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+.kontaktai {
+  padding-top: 20px;
+  box-shadow: 0px 0px 3px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: roboto;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+ul {
+  text-align: left;
+  font-family: roboto;
+  font-weight: 1000;
+  margin-left: 20px;
+}
+
+ul a {
+  color: black;
+}
+
+article {
+  padding: 10px 25px;
+  text-align: justify;
+  font-family: roboto;
+}
+footer {
+  padding-top: 10px;
+  text-align: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 40%;
+  background-color: aliceblue;
+}
+.produkto-ft {
+  margin-top: 20px;
+}
